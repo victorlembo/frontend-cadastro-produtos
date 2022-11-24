@@ -63,7 +63,7 @@ Veja algumas telas do projeto:
 
 <p align="midle">
   <img src="./src/img/splash.jpg" width="300" title="Splash Inicial" />
-  <img src="./src/img/tela-inicial.jpg" width="300" title="UI Inicial onde os menus são gerados em tempo de execução"/> 
+
 </p>
 
 
