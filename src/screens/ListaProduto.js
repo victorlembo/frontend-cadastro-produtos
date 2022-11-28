@@ -53,8 +53,8 @@ function ListaProduto({ data, navigation, theme }) {
           style={styles.buttonExcluir}
           onPress={confirmaExclusaoRegistro}
         >
-          <Avatar.Icon size={24} icon="delete" style={{ backgroundColor: colors.background }} />
-          <Text style={{ color: colors.background }} >Excluir</Text>
+          <Avatar.Icon size={48} icon="delete" style={{ backgroundColor: colors.background }} />
+       
         </TouchableOpacity>
       </View>
     )
@@ -69,11 +69,11 @@ function ListaProduto({ data, navigation, theme }) {
 
         <View style={{ flex: 1, justifyContent: 'center', backgroundColor: colors.background, borderRadius: 20 }}>
           <List.Item
-            title={data.razao_social}
-            description={`Codigo Produto: ${data.codigo_produto}`}
+            title={data.nome_produto}
+            description={`${data.descricao_produto}`}
             descriptionStyle={[styles.descricao]}
-            right={Platform.OS === 'web' ? botaoLadoDireito : ''}
-            left={props => <Avatar.Text label={data.nome_produto.substring(0, 2)} />}
+            right={ botaoLadoDireito } 
+            left={props => <Avatar.Text label={data.codigo_produto} />}
           />
 
         </View>
@@ -88,23 +88,22 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 4,
     flexDirection: 'row',
-    height: 80,
+    height: 100,
     borderRadius: 8,
     marginBottom: 2,
     marginHorizontal: 8,
+   
   },
   buttonExcluir: {
-    backgroundColor: '#d9534f',
-    height: 100,
-    width: 100,
+    
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 8,
-    borderTopEndRadius: 20,
-    borderBottomEndRadius: 20,
+   
   },
   descricao: {
-    paddingBottom: 16
+    paddingBottom: 16,
+
   }
 })
 

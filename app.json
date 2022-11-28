@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "icomidaMobile",
-    "slug": "icomidaMobile",
+    "name": "infoTechMobile",
+    "slug": "infoTechMobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
