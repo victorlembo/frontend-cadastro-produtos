@@ -52,7 +52,7 @@ function AdicionaProduto({ navigation, theme, route }) {
 
   return (
     <>
-    
+
       <View style={{ flex: 1, paddingVertical: 0, paddingHorizontal: 0 }}>
         <Header
           titulo="Cadastro de Produtos"
@@ -147,11 +147,9 @@ function AdicionaProduto({ navigation, theme, route }) {
           loading={salvando}
           onPress={() => salvarProduto(produto)}
         />
-        
       </View>
      
     </>
-    
   );
 }
 
