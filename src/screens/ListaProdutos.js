@@ -47,7 +47,7 @@ function ListaProdutos({ navigation, theme }) {
         ? (
             <View>
                 <Text style={{fontSize: 20, marginLeft: 16}}>
-                Ainda não há nenhum produto de serviço cadastrado.
+                Ainda não há nenhum produto cadastrado.
                 </Text>
             </View>    
         )
