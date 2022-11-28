@@ -5,11 +5,11 @@ export const Light = {
     dark: false,
     colors: {
         ...DefaultTheme.colors,
-        primary: '#3F51B5',
-        accent: '#0880AE',
-        background: '#EBF4F8',
+        primary: '#008631',
+        accent: '#1FD655',
+        background: '#83F28F',
         surface: '#F3F3F3',
-        text: '#2C2738',
+        text: '#000000',
     }
 }
 export const Dark = {
@@ -17,10 +17,10 @@ export const Dark = {
     dark: true,
     colors: {
         ...DarkTheme.colors,
-        primary: '#1769aa',
-        accent: '#002984',
-        background: '#3c4557',
-        surface: '#232323',
-        text: '#f3f3f3'
+        primary: '#262626',
+        accent: '#A7A6A6',
+        background: '#000000',
+        surface: '#363636',
+        text: '#FFFFFF'
     }
 }

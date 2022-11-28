@@ -77,7 +77,7 @@ function AdicionaProduto({ navigation, theme, route }) {
                     name="valor_produto"
                     style={{margin:8}}     
                     keyboardType="number-pad"
-                    placeholder='R$'
+                    placeholder='R$ (Digite apenas números)'
                     maxLength={7}
                     value={produto.valor_produto}
                     onChangeText={(text)=> setProduto({...produto, valor_produto: text})}

@@ -7,9 +7,8 @@ function Inicio({ navigation, theme }) {
     const { colors } = theme
     //Lista de ícones: https://materialdesignicons.com/
     const opcoesMenu = [
-        { id: 1, nome: 'Produtos', descricao: 'Produtos de informática', icone: 'domain', menu: 'ListaProdutos' },
+        { id: 1, nome: 'Gerenciar Produtos', descricao: 'Produtos de informática', icone: 'domain', menu: 'ListaProdutos' },
         { id: 2, nome: 'Configurações', descricao: 'Configurações do App', icone: 'cog', menu: 'Configuracoes' },
-        { id: 3, nome: 'Usuários', descricao: 'Usuários do Sistema', icone: 'account', menu: 'ListaProdutos' },
     ]
 
     return (
