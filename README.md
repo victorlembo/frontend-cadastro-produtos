@@ -53,7 +53,7 @@ expo start
 
 ### 5. Demo
 Veja um demo da API REST rodando no Vercel
-(https://backendmobile.vercel.app/api) ou acesse o código fonte: (https://github.com/victorlembo/backend-cadastro-produtos)
+(https://backend-cadastro-produtos.vercel.app/api) ou acesse o código fonte: (https://github.com/victorlembo/backend-cadastro-produtos)
 
 
 ### 6. Screens
